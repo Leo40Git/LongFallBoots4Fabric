@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "longfallboots4fabric",
+  "version": "${version}",
+  "name": "Long Fall Boots",
+  "description": "Adds Portal's Long Fall Boots to Minecraft! Nobody tell Cave.",
+  "authors": [
+    "ADudeCalledLeo"
+  ],
+  "contact": {
+    "homepage": "https://curseforge.com/minecraft/mc-mods/long-fall-boots-4-fabric",
+    "sources": "https://github.com/Leo40Git/LongFallBoots4Fabric",
+    "issues": "https://github.com/Leo40Git/LongFallBoots4Fabric/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/longfallboots4fabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "adudecalledleo.longfallboots4fabric.LongFallBoots4Fabric"
+    ],
+    "modmenu": [
+      "adudecalledleo.longfallboots4fabric.compat.ModMenuApiImpl"
+    ]
+  },
+  "mixins": [
+    "longfallboots4fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.0+build.204",
+    "fabric": "*",
+    "minecraft": "1.16.1"
+  },
+  "custom": {
+    "modupdater": {
+      "strategy": "curseforge",
+      "projectID": -1
+    }
+  }
+}

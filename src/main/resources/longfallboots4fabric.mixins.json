@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "adudecalledleo.longfallboots4fabric.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinLivingEntity_DisableFallDamage"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

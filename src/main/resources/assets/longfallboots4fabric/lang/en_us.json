@@ -1,0 +1,10 @@
+{
+  "item.longfallboots4fabric.long_fall_boots": "Long Fall Boots",
+  "item.longfallboots4fabric.long_fall_boots.flavor": "When equipped, nullify fall damage.",
+  "longfallboots4fabric.config.title": "Long Fall Boots Configuration",
+  "longfallboots4fabric.config.general": "General",
+  "longfallboots4fabric.config.general.boots_damage_multiplier": "Boots Damage Multiplier",
+  "longfallboots4fabric.config.general.boots_damage_multiplier.tooltip[0]": "Controls the durability loss multiplier when the Long Fall Boots nullify damage.",
+  "longfallboots4fabric.config.general.boots_damage_multiplier.tooltip[1]": "Final result is (damage_nullified * 4 + random_float(0, 2)) * this value.",
+  "longfallboots4fabric.config.general.boots_damage_multiplier.tooltip[2]": "Can be set to 0 to effectively make Long Fall Boots last forever."
+}
